@@ -32,3 +32,38 @@ void selectSort(std::vector<int>& v)
 		}
 	}
 }
+
+std::vector<int> qSort(std::vector<int>& v)
+{
+	qsortWork(0, v.size() - 1, v);
+	return v;
+
+}
+
+void qsortWork(int low, int high, std::vector<int>& v)
+{
+	if (high <= low)
+		return;
+
+	int p = partition(low, high, v);
+	qsortWork(low, p - 1, v);
+	qsortWork(p + 1, high, v);
+	return;
+}
+//returns the index of the pivot
+int partition(int low, int high, std::vector<int>& v)
+{
+	int p = v[high];
+
+	int i = low - 1;
+
+	for (int j = low; j <= high; j++) {
+		if (v[j] < p) {
+			++i;
+			std::swap(v[i], v[j]);
+		}
+	}
+	std::swap(v[i + 1], v[high]);
+	return i + 1;
+}
+

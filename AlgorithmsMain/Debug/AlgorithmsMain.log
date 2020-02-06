@@ -1,0 +1,5 @@
+﻿  sortFunctions.cpp
+C:\Users\Unatro\source\repos\AlgorithmsMain\sortFunctions.cpp(10,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Unatro\source\repos\AlgorithmsMain\sortFunctions.cpp(24,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Unatro\source\repos\AlgorithmsMain\sortFunctions.cpp(26,21): warning C4018: '<': signed/unsigned mismatch
+  AlgorithmsMain.vcxproj -> C:\Users\Unatro\source\repos\AlgorithmsMain\Debug\AlgorithmsMain.exe

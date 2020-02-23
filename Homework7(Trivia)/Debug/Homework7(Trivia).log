@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\Unatro\source\repos\Homework7(Trivia)\Source.cpp(45,14): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Unatro\source\repos\Homework7(Trivia)\Source.cpp(45,40): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Unatro\source\repos\Homework7(Trivia)\Source.cpp(45,69): warning C4018: '<': signed/unsigned mismatch
+  Homework7(Trivia).vcxproj -> C:\Users\Unatro\source\repos\Homework7(Trivia)\Debug\Homework7(Trivia).exe

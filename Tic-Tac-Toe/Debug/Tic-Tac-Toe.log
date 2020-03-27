@@ -1,0 +1,37 @@
+﻿  AIPlayer.cpp
+C:\Users\Unatro\source\repos\Tic-Tac-Toe\AIPlayer.h(7,7): error C2555: 'AIPlayer::getMove': overriding virtual function return type differs and is not covariant from 'Player::getMove'
+C:\Users\Unatro\source\repos\Tic-Tac-Toe\Player.h(8): message : see declaration of 'Player::getMove'
+C:\Users\Unatro\source\repos\Tic-Tac-Toe\AIPlayer.cpp(4,1): error C2512: 'Player': no appropriate default constructor available
+C:\Users\Unatro\source\repos\Tic-Tac-Toe\Player.h(2,7): message : see declaration of 'Player'
+  Board.cpp
+C:\Users\Unatro\source\repos\Tic-Tac-Toe\Board.h(18,9): warning C4114: same type qualifier used more than once
+C:\Users\Unatro\source\repos\Tic-Tac-Toe\Board.cpp(19,16): error C2600: 'Board::Board': cannot define a compiler-generated special member function (must be declared in the class first)
+C:\Users\Unatro\source\repos\Tic-Tac-Toe\Board.cpp(36,41): error C2511: 'bool Board::isValidMove(int) const': overloaded member function not found in 'Board'
+C:\Users\Unatro\source\repos\Tic-Tac-Toe\Board.h(4): message : see declaration of 'Board'
+C:\Users\Unatro\source\repos\Tic-Tac-Toe\Board.cpp(39,20): error C2597: illegal reference to non-static member 'Board::board'
+C:\Users\Unatro\source\repos\Tic-Tac-Toe\Board.cpp(39,20): error C3867: 'Board::board': non-standard syntax; use '&' to create a pointer to member
+C:\Users\Unatro\source\repos\Tic-Tac-Toe\Board.cpp(39,20): error C2109: subscript requires array or pointer type
+C:\Users\Unatro\source\repos\Tic-Tac-Toe\Board.cpp(46,53): error C2511: 'bool Board::checkCombo(int,char) const': overloaded member function not found in 'Board'
+C:\Users\Unatro\source\repos\Tic-Tac-Toe\Board.h(4): message : see declaration of 'Board'
+C:\Users\Unatro\source\repos\Tic-Tac-Toe\Board.cpp(50,6): error C2597: illegal reference to non-static member 'Board::board'
+C:\Users\Unatro\source\repos\Tic-Tac-Toe\Board.cpp(50,6): error C3867: 'Board::board': non-standard syntax; use '&' to create a pointer to member
+C:\Users\Unatro\source\repos\Tic-Tac-Toe\Board.cpp(50,6): error C2109: subscript requires array or pointer type
+C:\Users\Unatro\source\repos\Tic-Tac-Toe\Board.cpp(59,40): error C2511: 'bool Board::isWinner(char) const': overloaded member function not found in 'Board'
+C:\Users\Unatro\source\repos\Tic-Tac-Toe\Board.h(4): message : see declaration of 'Board'
+C:\Users\Unatro\source\repos\Tic-Tac-Toe\Board.cpp(65,12): error C2352: 'Board::checkCombo': illegal call of non-static member function
+C:\Users\Unatro\source\repos\Tic-Tac-Toe\Board.h(16): message : see declaration of 'Board::checkCombo'
+C:\Users\Unatro\source\repos\Tic-Tac-Toe\Board.cpp(72,42): error C2511: 'std::string Board::getBoardPlaces(void) const': overloaded member function not found in 'Board'
+C:\Users\Unatro\source\repos\Tic-Tac-Toe\Board.h(4): message : see declaration of 'Board'
+C:\Users\Unatro\source\repos\Tic-Tac-Toe\Board.cpp(76,44): error C2511: 'std::string Board::getCurrentBoard(void) const': overloaded member function not found in 'Board'
+C:\Users\Unatro\source\repos\Tic-Tac-Toe\Board.h(4): message : see declaration of 'Board'
+C:\Users\Unatro\source\repos\Tic-Tac-Toe\Board.cpp(82,13): error C2373: 'Board::makeMove': redefinition; different type modifiers
+C:\Users\Unatro\source\repos\Tic-Tac-Toe\Board.h(13): message : see declaration of 'Board::makeMove'
+  Game.cpp
+C:\Users\Unatro\source\repos\Tic-Tac-Toe\Board.h(18,9): warning C4114: same type qualifier used more than once
+  Source.cpp
+C:\Users\Unatro\source\repos\Tic-Tac-Toe\Board.h(18,9): warning C4114: same type qualifier used more than once
+C:\Users\Unatro\source\repos\Tic-Tac-Toe\AIPlayer.h(7,7): error C2555: 'AIPlayer::getMove': overriding virtual function return type differs and is not covariant from 'Player::getMove'
+C:\Users\Unatro\source\repos\Tic-Tac-Toe\Player.h(8): message : see declaration of 'Player::getMove'
+C:\Users\Unatro\source\repos\Tic-Tac-Toe\Source.cpp(11,39): error C2661: 'Game::Game': no overloaded function takes 3 arguments
+  Generating Code...
+C:\Users\Unatro\source\repos\Tic-Tac-Toe\Game.cpp(62): error C4716: 'Game::announceResult': must return a value
